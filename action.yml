@@ -1,0 +1,10 @@
+name: 'Mohammed Bayero Yayandi'
+description: 'Provide a description here'
+author: 'Mohammed Bayero Yayandi, David '
+inputs:
+  myInput:              # change this
+    description: 'input description here'
+    default: 'default value if applicable'
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
